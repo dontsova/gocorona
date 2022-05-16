@@ -48,7 +48,7 @@ body {
 
 
 .main {
-    background-color: coral;
+    /* background-color: coral; */
     flex: 1 1 auto;
 }
 .footer {
@@ -72,7 +72,7 @@ body {
 .header__container {
     display: flex;
     align-items: center;
-    background-color: turquoise;
+    /* background-color: turquoise; */
     min-height: 114px;
 }
 .header__logo {
@@ -139,6 +139,89 @@ body {
 .icon-menu {
     display: none;
 }
+
+/* =========================================== */
+
+.block-text {
+
+}
+.block-text__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color: #000;
+}
+.block-text__title:not(:last-child) {
+    margin: 0 0 12px 0;
+}
+.block-text__title span {
+    color: #ec5863;
+}
+.block-text__title_blue span {
+    color: #4285F4;
+}
+.block-text__text {
+    line-height: 138.5%;
+}
+.block-text__text:not(:last-child) {
+    margin: 0 0 24px 0;
+}
+.block-text__button {
+    
+}
+
+/* =========================================== */
+
+.get-started {
+    background-color: #fafdfd;
+    padding: 150px 0 50px 0;
+}
+.get-started__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.get-started__content {
+    flex: 0 1 48%;
+    padding: 96px 0 0 20px;
+}
+.get-started__block-text {
+    max-width: 410px;
+}
+.get-started__video {
+    flex: 1 1 100%;
+    padding: 60px 0 0 20px;
+}
+.get-started__image {
+    flex: 0 1 52%;
+}
+.get-started__image img {
+    max-width: 100%;
+}
+.video-get-started {
+    display: inline-flex;
+}
+.video-get-started__icon {
+    flex: 0 0 44px;
+}
+.video-get-started__body {
+    padding: 0 0 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.video-get-started__title {
+    color: #b0b0b0;
+    font-size: 13px;
+    line-height: 126%;
+    letter-spacing: 1.5px; 
+}
+.video-get-started__text {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
 
 /* PC */
 @media (max-width: 1087px) {
